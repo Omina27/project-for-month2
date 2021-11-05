@@ -11,7 +11,8 @@
         "../sass/blocks/_blocks.scss",
         "../sass/blocks/_header.scss",
         "../sass/blocks/_main.scss",
-        "../sass/blocks/_footer.scss"
+        "../sass/blocks/_footer.scss",
+        "../sass/blocks/_aloqa-header.scss"
     ],
     "names": [],
     "file": "main.css"
