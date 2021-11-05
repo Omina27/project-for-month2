@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -344,7 +345,7 @@ template {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial",sans-serif;
+  font-family: "Montserrat", "Arial",sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -355,11 +356,11 @@ body {
 }
 
 .container {
-  max-width: px;
+  max-width: 1356px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: px;
-  padding-right: px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .visually-hidden {
@@ -373,13 +374,180 @@ body {
   clip: rect(0 0 0 0);
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-ul, div {
+ul {
   margin: 0;
   padding: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.header__logo-link {
+  display: block;
+  margin-right: 30px;
+}
+
+.header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.header .nav__item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header .nav__link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header__form {
+  margin-left: 227px;
+  margin-right: 8px;
+}
+
+.header__form__lang {
+  max-width: 400px;
+  border-radius: 50%;
+}
+
+.header__button {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+.main {
+  margin-bottom: 100px;
+}
+
+.main__heading {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #0C2F75;
+  margin: 0;
+}
+
+.main__line {
+  width: 1016px;
+  margin-bottom: 15px;
+}
+
+.main .hero {
+  margin-left: 156px;
+}
+
+.main .hero__img {
+  margin-bottom: 20px;
+}
+
+.main .hero__text {
+  max-width: 840px;
+  padding-right: 15px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.main .hero__link {
+  text-decoration: none;
+  color: #2347be;
+}
+
+.main .hero__app-link {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-wrapper {
+  background-color: #1C2680;
+  margin-bottom: 100px;
+}
+
+.footer__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.footer__header .list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__header .list__item {
+  margin-right: 50px;
+}
+
+.footer__header .list__link {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #ffff;
+}
+
+.footer__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__left {
+  max-width: 1000px;
+}
+
+.footer__text {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #ffff;
+}
+
+.footer__right {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 47px;
+}
+
+.footer__link-app {
+  text-decoration: none;
+  margin-right: 28px;
 }
 /*# sourceMappingURL=main.css.map */

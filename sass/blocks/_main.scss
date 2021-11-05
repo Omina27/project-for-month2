@@ -1,0 +1,47 @@
+.main {
+    margin-bottom: 100px;
+    
+    &__heading {
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: #0C2F75;
+        margin: 0;
+    }
+    
+    &__line {
+        width: 1016px;
+        margin-bottom: 15px;
+    }
+    
+    .hero {
+        margin-left: 156px;
+        &__img {
+            margin-bottom: 20px;
+        }
+        
+        &__text {
+            max-width: 840px;
+            padding-right: 15px;
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        &__link {
+            text-decoration: none;
+            color: #2347be;
+        }
+
+        &__app-link {
+            text-decoration: none;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

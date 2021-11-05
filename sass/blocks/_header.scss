@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+    
+    &__logo-link {
+        display: block;
+        margin-right: 30px;
+    }
+    
+    .nav {
+        display: flex;
+        list-style-type: none;
+        
+        &__item {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        &__link {
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17px; 
+            text-transform: uppercase;
+            color: #000000;
+        }
+        
+    }
+
+    &__form {
+        margin-left: 227px;
+        margin-right: 8px;
+        &__lang {
+            max-width: 400px;
+            border-radius: 50%;
+        } 
+    }
+
+    &__button {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+    }
+}
