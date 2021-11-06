@@ -1,8 +1,8 @@
-.hero {
+.aloqa-hero {
     display: flex;
 }
 
-.hero-left {
+.aloqa-hero-left {
     max-width: 500px;
     margin-right: 56px;
     &__heading{
@@ -50,7 +50,7 @@
     margin-bottom: 150px;
 }
 
-.hero__right {
+.aloqa-hero__right {
     max-width: 681px;
     padding: 35px;
     border: 1px solid #000000;
